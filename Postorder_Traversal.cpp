@@ -13,7 +13,7 @@ void postTraverse(TreeNode *root)
 }
 vector<int> postorderTraversal(TreeNode *root)
 {
-    v.clear(); // in this problem tese cases are used. So, beacuse of we took a global
+    v.clear(); // in this problem multiple test cases are used. So, because of we took a global
                // vector we have to clear the vector before every test case. otherwise 
               //  previous values will remain in the vector.
     postTraverse(root);
